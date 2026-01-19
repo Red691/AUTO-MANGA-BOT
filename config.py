@@ -16,7 +16,7 @@ class Config:
     API_HASH = os.getenv("API_HASH", "")
     DB_NAME = os.getenv("DB_NAME", "manga")
     DB_URL = os.getenv("DB_URL", "")
-    CHECK_INTERVAL = int(os.getenv("CHECK_INTERVAL", ""))
+    CHECK_INTERVAL = int(os.getenv("CHECK_INTERVAL", "300"))
     MAX_CHAPTERS_PER_CHECK = int(os.getenv("MAX_CHAPTERS", "5"))
     DOWNLOAD_DIR = "downloads"
     STATE_FILE = "bot_state.json"
