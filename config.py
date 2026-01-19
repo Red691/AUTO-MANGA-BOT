@@ -11,10 +11,10 @@ import os
 
 class Config:
     BOT_TOKEN = os.getenv("BOT_TOKEN", "")
-    USER_ID = int(os.getenv("USER_ID", ""))
+    USER_ID = int(os.getenv("USER_ID", "5770911041"))
     API_ID = int(os.getenv("API_ID", ""))
     API_HASH = os.getenv("API_HASH", "")
-    DB_NAME = os.getenv("DB_NAME", "")
+    DB_NAME = os.getenv("DB_NAME", "manga")
     DB_URL = os.getenv("DB_URL", "")
     CHECK_INTERVAL = int(os.getenv("CHECK_INTERVAL", ""))
     MAX_CHAPTERS_PER_CHECK = int(os.getenv("MAX_CHAPTERS", "5"))
